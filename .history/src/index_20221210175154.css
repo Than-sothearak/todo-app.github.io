@@ -40,7 +40,6 @@ text-align: start;
   margin-left: 30px;
   width: 80px;
   border-radius: 10px;
-  cursor: pointer;
 }
 
 .input {
@@ -79,7 +78,6 @@ li button {
   display: flex;
   justify-self: start;
   align-items: center;
-  cursor: pointer;
 }
 
   @media only screen and (max-width: 600px) {

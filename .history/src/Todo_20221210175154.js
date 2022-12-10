@@ -57,7 +57,7 @@ class Todo extends React.Component {
                 value={this.state.text}
               />
             </div>
-            <button className="button-add">Add #{this.state.items.length + 1}</button>
+            <button>Add #{this.state.items.length + 1}</button>
           </form>
           <TodoList text={this.state.items} 
                     handleDelete={this.handleDelete} 
